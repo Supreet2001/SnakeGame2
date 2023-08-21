@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SnakeGame</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="gameover">
+      <div class="btn">
+        <img src="images/restart.png" alt="" srcset="" id="restart" />
+      </div>
+    </div>
+    <div class="body">
+      <div class="board"></div>
+    </div>
+
+    <div id="hscore">
+      <div class="boxs">
+        <div class="scoretag">Highscore</div>
+        <div id="num">0</div>
+      </div>
+    </div>
+    <div id="currscore">Score : 0</div>
+    <div class="heading">
+      <h1>SnakeArena</h1>
+    </div>
+    <div class="author">
+      <h2>-created by <span class="name">Supreet</span></h2>
+    </div>
+    <div class="pts">press any key to start</div>
+    <div class="select">
+      <select name="" id="dLevel" onchange="change()">
+        <option value="" disabled selected id="o">Choose difficulty level</option>
+        <option value="4" id="o1">Very Easy</option>
+        <option value="5" id="o2">Easy</option>
+        <option value="6" id="o3">Normal</option>
+        <option value="11" id="o4">Hard</option>
+        <option value="19" id="o5">Expert</option>
+      </select>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
